@@ -1,0 +1,15 @@
+{
+  "name": "cardram",
+  "version": "1.0.0",
+  "description": "Card Rick and Morty API",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "API"
+  ],
+  "author": "Larry Kevin <larry.kevin.c.c@gmail.com>",
+  "license": "MIT"
+}

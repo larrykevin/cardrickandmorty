@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Rick And Morty</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <header>
+        <h1>Personajes de Rick and Morty</h1>
+    </header>
+    <main class="container"></main>
+
+    <template id="template-card">
+        <section class="card">
+            <picture class="card__image">
+                <img src="src/41.jpeg" alt="character-image">
+            </picture>
+            <section class="card__data">
+                <h2 class="card__data--name">Nombre del personaje</h2>
+                <div class="card__data--status">
+                    <span>Vivo</span><span>Especie</span>
+                </div>
+                <h4>Última vez visto en:</h4>
+                <p class="card__data--location">Lugar</p>
+                <h4>La primera vez apareció en:</h4>
+                <p class="card__data--origin">Lugar</p>
+            </section>
+        </section>
+        <footer class="footer">
+            <p>@larrykevin23</p>
+        </footer>
+    </template>
+
+    <script src="src/app.js"></script>
+</body>
+</html>
